@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+}
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+header img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top:0;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(25, 25, 59);
+}
+
+/* home */
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+.home div{
+    padding-top: 100px;
+}
+.home img{
+    margin-left: 20px;
+    width: 500px;
+}
+.home h2{
+   font-size: 40px;
+   font-weight: 800px;
+}
+.home input{
+   width: 250px;
+   height: 50px;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+
+/* secton  */
+section{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+section p{
+    
+    padding-top: 30px;
+}
