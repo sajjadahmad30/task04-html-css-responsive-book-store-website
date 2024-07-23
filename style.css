@@ -9,8 +9,9 @@ header{
     justify-content: center;
     
 }
+
 header img{
-    width: 160px;
+    width: 120px;
     border-radius: 50%;
 }
 nav{
@@ -57,6 +58,10 @@ section{
     margin-bottom: 30px;
     padding-top: 30px;
 }
+section h3{
+    font-size: xx-large;
+    font-weight: bolder;
+}
 section p{
 
     padding-top: 30px;
@@ -68,8 +73,11 @@ section p{
 }
 .best-selling h3{
     padding-top: 30px;
-    padding-left: 10px;
+    padding-left: 95px;
     padding-bottom: 20px;
+    color: blue;
+    font-family: cursive;
+    font-weight: bolder;
 }
 .group-cards{
     display: flex;
@@ -88,6 +96,9 @@ section p{
     height: 350px;
     border-radius:5px ;
    filter: opacity(0.9);
+}
+.Books img:hover{
+    padding: 4px;
 }
 .Books h6{
     position: relative;
@@ -125,6 +136,8 @@ section p{
     padding-left: 20px;
     padding-bottom: 30px;
     font-size: x-large;
+    color: blue;
+    font-family: cursive;
 }
 
 .card-group .card{
@@ -140,6 +153,9 @@ section p{
     width: 323px;
     height: 350px;
 }
+.card-img-top:hover{
+    padding: 4px;
+}
 
 .card .card-body{
 background-color: #373b3e9e;
@@ -150,7 +166,12 @@ background-color: #373b3e9e;
     text-align: center;
     height: 60px;
     margin-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+.card-body .card-title:hover{
+border-radius: 10px;
+background-color: #b0b0b0;
+transition: ease 2s;
 }
 .card button{
     background-color: #373b3e9e;
@@ -160,11 +181,129 @@ background-color: #373b3e9e;
     display: block;
     margin: 0 auto;
     border: none;
-    padding-top: 10px;
+    border-radius: 5px;
+}
+
+/* Section  */
+.connect{
+    margin-top: 50px;
+    background-color: #e5edf3;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius:10px ;
+}
+.connect h3{
+    padding-bottom: 20px;
+    background-color: #e5edf3;
+}
+.connect img{
+    width: 40px;
+    background-color: #e5edf3;
+}
+
+footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p{
+    font-size: medium ;
+}
+footer :first-child{
+font-size: large;
+}
+
+footer div a{
+    color: black;
+    display: block;
+    font-size: medium;
+    text-decoration: none;
+}
+
+footer div a:hover{
+    background-color: rgb(218, 39, 159);
+    color: #e5edf3;
+    
+}
+footer img{
+    width: 30%;
+    border-radius: 14px;
+}
+
+.copyright{
+    margin-top: 70px;
+    text-align: center;
+}
+.copyright p{
+    background-color: black;
+    color: #fff;
+    font-size: medium;
+}
+button:hover{
+    color: black;
+    background-color: #e5edf3;
+}
+
+button:active{
+ color: #e5edf3;
+ background-color: black;
+}
+nav a:hover{
+    border-radius: 5px;
+    background-color: rgb(194, 193, 175);
+
 }
 
 
+
 /* media queries  */
+/* for PC */
+@media (max-width : 900px){
+    .home img{
+        margin-left: 20px;
+        width: 250px;
+        margin-top: 20px;
+    }
+    .home h2{
+        font-size: 30px;
+        font-weight: 700px;
+    }
+    .group-cards{
+        display: grid;
+        justify-content: space-evenly;
+    }
+    .Books {
+        margin-bottom: 10px;
+    }
+    .Books button{
+        width: 15vw;
+        height: 7vh;
+    }
+    .card-group{
+        display: grid;
+        
+    }
+    .card-group .card-title{
+        font-size: 1.5vw;
+        padding-top:10px ;
+
+    }
+    footer{
+        font-size: 1vw;
+        
+    }
+    footer div p{
+        font-size: 1vw;
+
+    }
+    footer img{
+       width: 40%;
+    }
+}
+
+
 /* for mobile Apps */
 @media (max-width:420px) {
     header img{
@@ -256,5 +395,30 @@ background-color: #373b3e9e;
         border: none;
         padding: 2px;
     }
-    
+
+    /* connect  */
+    .connect{
+        background-color: #e5edf3;
+
+    }
+    .connect h3{
+        font-size: medium;
+        margin-top:-20px ;
+    }
+    .connect img{
+        width: 30px;
+    }
+
+
+    /* footer  */
+    footer{
+        font-size: 2vw;
+    }
+    footer div :first-child{
+        font-size: 2vw;
+    }
+    footer img{
+        visibility: hidden;
+    }
+
 }
