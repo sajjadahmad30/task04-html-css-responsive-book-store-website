@@ -18,6 +18,9 @@ nav{
     justify-content: space-evenly;
     position: sticky;
     top:0;
+    background-color: gray;
+    padding: 20px;
+    z-index: 12;
 }
 nav a{
     text-decoration: none;
@@ -57,6 +60,107 @@ section{
 section p{
 
     padding-top: 30px;
+}
+
+/* best selling */
+.best-selling{
+    padding-top: 20px;
+}
+.best-selling h3{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.group-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.Books{
+    height: 350px;
+    border: 2px solid black;
+    background-color: #e5edf3;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.Books img{
+    width: 300px;
+    height: 350px;
+    border-radius:5px ;
+   filter: opacity(0.9);
+}
+.Books h6{
+    position: relative;
+    top:-120px; 
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    color: #fff;
+
+}
+
+.Books button{
+    background:black;
+    color: #fff;
+    width: 10vw;
+    height: 7vh;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -120px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card-group{
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+#Books{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+
+.card-group .card{
+    width: 400px;
+    height: 520px;
+    padding: 5px;
+    background-color: #e5edf3;
+    margin: 10px;
+    border: 1px solid #436e92;
+
+}
+.card-img-top{
+    width: 323px;
+    height: 350px;
+}
+
+.card .card-body{
+background-color: #373b3e9e;
+}
+.card-body .card-title{
+    background-color: #373b3e9e;
+    color: white;
+    text-align: center;
+    height: 60px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.card button{
+    background-color: #373b3e9e;
+    color: #fff;
+    height: 7vh;
+    width: 10vw;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding-top: 10px;
 }
 
 
@@ -100,6 +204,57 @@ section p{
     section p{
         font-size: smaller;
         padding-top: 10px;
+    }
+
+
+
+    /* best sellers */
+    .group-cards{
+        display: grid;
+        margin-left: 10px;
+    }
+    .Books{
+        margin-bottom: 20px;
+        
+    }
+    .Books img{
+        width: 300px;
+        height: 350px;
+    }
+    .Books button{
+        width: 20vw;
+        height: 4vh;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    /* Books collection */
+    .card-group{
+        display: grid;
+        margin-left: 22px;
+    }
+    .card-group .card{
+       margin-bottom: 90px;
+       margin-top: 40px;
+       width: 320px;
+       height: 470px;
+       margin-left: -2px;
+    }
+    .card .card-title{
+        height: 40px;
+        font-size: small;
+        padding-top: 12px;
+    }
+    .card button{
+        background-color:#373b3e9e;
+        color: white;
+        width: 20vw;
+        height: 4vh;
+        display: block;
+        margin: 0 auto;
+        border: none;
+        padding: 2px;
     }
     
 }
