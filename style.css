@@ -7,12 +7,14 @@
 header{
     display: flex;
     justify-content: center;
-    
+     
 }
 
 header img{
-    width: 120px;
+    width: 100px;
     border-radius: 50%;
+    margin-bottom: 12px;
+    box-shadow: 4px 3px 10px 6px rgb(5, 57, 5);
 }
 nav{
     display: flex;
@@ -58,9 +60,11 @@ section{
     margin-bottom: 30px;
     padding-top: 30px;
 }
-section h3{
-    font-size: xx-large;
-    font-weight: bolder;
+section h2{
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 7px 5px 6px rgb(223, 147, 106);
+   
 }
 section p{
 
@@ -192,6 +196,7 @@ transition: ease 2s;
     display: block;
     margin: 0 auto;
     border-radius:10px ;
+    box-shadow: 1px 10px 12px gray  ;
 }
 .connect h3{
     padding-bottom: 20px;
@@ -244,6 +249,7 @@ footer img{
 button:hover{
     color: black;
     background-color: #e5edf3;
+    box-shadow: 1px 1px 10px  rgb(208, 212, 208);
 }
 
 button:active{
@@ -253,6 +259,7 @@ button:active{
 nav a:hover{
     border-radius: 5px;
     background-color: rgb(194, 193, 175);
+    box-shadow: 1px 1px 10px rgb(208, 212, 208);
 
 }
 
