@@ -61,7 +61,7 @@ section{
     padding-top: 30px;
 }
 section h2{
-    font-size: 55px;
+    font-size: 40px;
     font-weight: bold;
     text-shadow: 7px 5px 6px rgb(223, 147, 106);
    
@@ -338,6 +338,7 @@ nav a:hover{
        height: 20px;
        margin-top: 7px;
     }
+    
     
     /* secton  */
     section{
